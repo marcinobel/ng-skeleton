@@ -35,12 +35,12 @@ gulp.task('ng:controller', function () {
             path.basename = data.controller;
         }))
         .pipe(gulp.dest(SCRIPTS_DESTINATION + 'controllers/'))
-        .on('close', ngInject);
+        .on('close', injectProjectFiles);
 
-    ngInject();
+    injectProjectFiles();
 });
 
-function ngInject() {
+function injectProjectFiles() {
     var included = ['controllers/*.js'];
     included = _.map(included, function(pattern) {
         return SCRIPTS_DESTINATION + pattern;
