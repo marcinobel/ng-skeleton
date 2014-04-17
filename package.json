@@ -1,0 +1,34 @@
+{
+  "name": "ng-skeleton",
+  "version": "0.0.1",
+  "description": "ng-skeleton",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcinobel/ng-skeleton.git"
+  },
+  "keywords": [
+    "AngularJS",
+    "scaffolding",
+    "generator",
+    "ng-skeleton"
+  ],
+  "author": "Marcin Obel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcinobel/ng-skeleton/issues"
+  },
+  "homepage": "https://github.com/marcinobel/ng-skeleton",
+  "dependencies": {
+    "yargs": "^1.2.1",
+    "gulp": "^3.6.0",
+    "gulp-prompt": "^0.1.1",
+    "gulp-template": "^0.1.1",
+    "gulp-rename": "^1.2.0",
+    "lodash": "^2.4.1",
+    "gulp-inject": "^0.4.1"
+  }
+}
